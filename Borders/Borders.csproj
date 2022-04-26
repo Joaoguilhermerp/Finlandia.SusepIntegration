@@ -4,4 +4,17 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Shared\Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="Dtos\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Validators\" />
+    <Folder Include="UseCases\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
 </Project>

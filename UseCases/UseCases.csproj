@@ -9,4 +9,8 @@
     <PackageReference Include="Sentry" Version="3.16.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Borders\Borders.csproj" />
+  </ItemGroup>
+
 </Project>
